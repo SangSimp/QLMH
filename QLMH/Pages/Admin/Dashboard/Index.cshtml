@@ -1,0 +1,49 @@
+﻿@page
+@model QLMH.Pages.Admin.Dashboard.IndexModel
+@{
+    ViewData["Title"] = "Bảng điều khiển";
+}
+
+<h1 class="mt-4">@ViewData["Title"]</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Tổng quan</li>
+</ol>
+
+<div class="row">
+
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-success text-white mb-4">
+            <div class="card-body">
+                <div>Tổng Doanh Thu</div>
+                <div class="h4">@Model.TotalRevenue.ToString("N0") VNĐ</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-primary text-white mb-4">
+            <div class="card-body">
+                <div>Tổng Đơn Hàng</div>
+                <div class="h4">@Model.TotalOrders</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-warning text-white mb-4">
+            <div class="card-body">
+                <div>Tổng Sản Phẩm</div>
+                <div class="h4">@Model.TotalProducts</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="card bg-danger text-white mb-4">
+            <div class="card-body">
+                <div>Tổng Khách Hàng</div>
+                <div class="h4">@Model.TotalCustomers</div>
+            </div>
+        </div>
+    </div>
+</div>

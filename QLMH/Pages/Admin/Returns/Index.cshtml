@@ -1,0 +1,74 @@
+﻿@page
+@model QLMH.Pages.Admin.Returns.IndexModel
+
+@{
+    ViewData["Title"] = "Quản lý Đổi trả";
+}
+
+<h1>Quản lý Đổi trả</h1>
+
+<div class="card mb-4 mt-3">
+    <div class="card-header">
+        <i class="fas fa-undo me-1"></i> Danh sách yêu cầu đổi trả
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Mã Đơn</th>
+                    <th>Khách hàng</th>
+                    <th>Ngày yêu cầu</th>
+                    <th>Lý do</th>
+                    <th>Trạng thái</th>
+                    <th style="width: 150px;">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ReturnRequest)
+                {
+                    <tr>
+                        <td class="align-middle fw-bold">
+                            #@item.OrderId
+                        </td>
+                        <td class="align-middle">
+                            @(item.Order?.User?.FullName ?? "N/A")
+                        </td>
+                        <td class="align-middle">
+                            @item.RequestDate.ToString("dd/MM/yyyy")
+                        </td>
+                        <td class="align-middle">
+                            @item.Reason
+                        </td>
+                        <td class="align-middle text-center">
+                            @if (item.Status == "Pending")
+                            {
+                                <span class="badge bg-warning text-dark">Chờ xử lý</span>
+                            }
+                            else if (item.Status == "Approved")
+                            {
+                                <span class="badge bg-success">Đã duyệt</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Từ chối</span>
+                            }
+                        </td>
+                        <td class="align-middle">
+                            <div class="btn-group" role="group">
+                                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm text-white" title="Xử lý">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info btn-sm text-white" title="Chi tiết">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>
+                                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" title="Xóa">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

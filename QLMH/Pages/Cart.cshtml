@@ -1,0 +1,48 @@
+﻿@page
+@model QLMH.Pages.CartModel
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<h1>Giỏ hàng của bạn</h1>
+
+@if (Model.Cart.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tổng cộng</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Cart)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Price.ToString("N0") VNĐ</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Total.ToString("N0") VNĐ</td>
+                    <td>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Tổng cộng</th>
+                <th colspan="2">@Model.TotalAmount.ToString("N0") VNĐ</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href="/Checkout" class="btn btn-success">Đi đến Thanh toán</a>
+}
+else
+{
+    <p class="alert alert-info">Giỏ hàng của bạn đang trống.</p>
+    <a href="/Index" class="btn btn-primary">Tiếp tục mua sắm</a>
+}

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<QLMH.Models.Category>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Danh mục</a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+        @foreach (var category in Model)
+        {
+            <li><a class="dropdown-item" asp-page="/Index" asp-route-CategoryId="@category.Id">@category.Name</a></li>
+        }
+
+        <li><hr class="dropdown-divider" /></li>
+
+        <li><a class="dropdown-item" asp-page="/Index">Tất cả Sản phẩm</a></li>
+    </ul>
+</li>

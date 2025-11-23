@@ -1,0 +1,49 @@
+﻿@page
+@model QLMH.Areas.Admin.Pages.Users.CreateModel
+@{
+    ViewData["Title"] = "Tạo tài khoản mới";
+}
+
+<h1>Tạo tài khoản mới</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Input.FullName" class="form-label">Họ và Tên</label>
+                <input asp-for="Input.FullName" class="form-control" placeholder="Nhập họ tên..." />
+                <span asp-validation-for="Input.FullName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Input.Email" class="form-label">Email (Tên đăng nhập)</label>
+                <input asp-for="Input.Email" class="form-control" placeholder="example@gmail.com" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Input.Password" class="form-label">Mật khẩu</label>
+                <input asp-for="Input.Password" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Input.Role" class="form-label">Phân quyền</label>
+                <select asp-for="Input.Role" asp-items="Model.RolesList" class="form-select">
+                    <option value="">-- Chọn quyền --</option>
+                </select>
+                <span asp-validation-for="Input.Role" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Tạo tài khoản</button>
+            <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

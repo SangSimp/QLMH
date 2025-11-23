@@ -1,0 +1,64 @@
+﻿@page
+@model QLMH.Pages.Admin.Orders.IndexModel
+
+@{
+    ViewData["Title"] = "Quản lý Đơn hàng";
+}
+
+<h1>Quản lý Đơn hàng</h1>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-file-invoice-dollar me-1"></i>
+        Danh sách đơn hàng
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Mã ĐH</th>
+                    <th>Khách hàng</th>
+                    <th>Ngày đặt</th>
+                    <th>Tổng tiền</th>
+                    <th>Trạng thái</th>
+                    <th style="width: 150px;">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Order)
+                {
+                    <tr>
+                        <td class="align-middle fw-bold text-primary">
+                            #@item.Id
+                        </td>
+                        <td class="align-middle">
+                            @(string.IsNullOrEmpty(item.FullName) ? (item.User != null ? item.User.FullName : "Khách vãng lai") : item.FullName)
+                        </td>
+                        <td class="align-middle">
+                            @item.OrderDate.ToString("dd/MM/yyyy HH:mm")
+                        </td>
+                        <td class="align-middle fw-bold text-success">
+                            @item.TotalAmount.ToString("N0") VNĐ
+                        </td>
+                        <td class="align-middle">
+                            <span class="badge bg-info text-dark">@item.OrderStatus</span>
+                        </td>
+                        <td class="align-middle">
+                            <div class="btn-group" role="group">
+                                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm text-white" title="Cập nhật">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info btn-sm text-white" title="Chi tiết">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>
+                                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" title="Xóa">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

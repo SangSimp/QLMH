@@ -1,0 +1,51 @@
+﻿@page
+@model QLMH.Areas.Admin.Pages.Users.DeleteModel
+
+@{
+    ViewData["Title"] = "Xóa Tài khoản";
+}
+
+<h1 class="text-danger">Xác nhận Xóa Tài khoản</h1>
+<h3 class="text-warning">Bạn có chắc chắn muốn xóa tài khoản này không? Thao tác này không thể hoàn tác.</h3>
+<hr />
+
+<div class="card border-danger mb-3" style="max-width: 500px;">
+    <div class="card-header bg-danger text-white">
+        Thông tin Tài khoản cần xóa
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">
+                Họ và Tên:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.CurrentUser.FullName)
+            </dd>
+
+            <dt class="col-sm-4">
+                Email:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.CurrentUser.Email)
+            </dd>
+
+            <dt class="col-sm-4">
+                SĐT:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.CurrentUser.PhoneNumber)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+
+<form method="post">
+    <input type="hidden" asp-for="CurrentUser.Id" />
+
+    <button type="submit" class="btn btn-danger">
+        <i class="fas fa-trash"></i> Xóa ngay
+    </button>
+
+    <a asp-page="./Index" class="btn btn-secondary">Hủy bỏ và Quay lại</a>
+</form>

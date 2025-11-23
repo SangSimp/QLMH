@@ -1,0 +1,72 @@
+﻿@page
+@model QLMH.Areas.Admin.Pages.Users.IndexModel
+@{
+    ViewData["Title"] = "Quản lý Tài khoản";
+}
+
+<h1>Quản lý Tài khoản</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">
+        <i class="fas fa-user-plus"></i> Tạo tài khoản mới
+    </a>
+</p>
+<div class="card mb-4 mt-4">
+    <div class="card-header">
+        <i class="fas fa-users me-1"></i>
+        Danh sách thành viên
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Họ và Tên</th>
+                    <th>Email</th>
+                    <th>Số điện thoại</th>
+                    <th>Quyền hạn</th>
+                    <th style="width: 150px;">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model.UserList)
+                {
+                    <tr>
+                        <td class="align-middle fw-bold text-primary">
+                            @user.FullName
+                        </td>
+                        <td class="align-middle">
+                            @user.Email
+                        </td>
+                        <td class="align-middle">
+                            @user.PhoneNumber
+                        </td>
+                        <td class="align-middle text-center">
+                            @if (user.RoleNames.Contains("Admin"))
+                            {
+                                <span class="badge bg-danger">@user.RoleNames</span>
+                            }
+                            else if (user.RoleNames.Contains("Staff"))
+                            {
+                                <span class="badge bg-primary">@user.RoleNames</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Khách hàng</span>
+                            }
+                        </td>
+                        <td class="align-middle">
+                            <div class="btn-group" role="group">
+                                <a asp-page="./Edit" asp-route-id="@user.Id" class="btn btn-warning btn-sm text-white" title="Phân quyền">
+                                    <i class="fas fa-user-cog"></i>
+                                </a>
+                                <a asp-page="./Delete" asp-route-id="@user.Id" class="btn btn-danger btn-sm" title="Xóa">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

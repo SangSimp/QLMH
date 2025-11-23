@@ -1,0 +1,771 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP.Net\\QLMH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251123065144_AddStockQuantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLMH\\Data\\Migrations\\20251123065144_AddStockQuantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\shared\\_layout_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\shared\\_layout_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\productdetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\productdetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\returns\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\returns\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\models\\returnrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\models\\returnrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\returns\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\returns\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\helpers\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\helpers\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\pages\\shared\\components\\categorymenu\\categorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\pages\\shared\\components\\categorymenu\\categorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ASP.Net\\QLMH\\startbootstrap-shop-homepage-gh-pages (1)\\startbootstrap-shop-homepage-gh-pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:startbootstrap-shop-homepage-gh-pages (1)\\startbootstrap-shop-homepage-gh-pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\data\\migrations\\20251111210755_addreviewscollectiontoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\data\\migrations\\20251111210755_addreviewscollectiontoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|c:\\asp.net\\qlmh\\qlmh\\data\\migrations\\20251117165619_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212818D0-B3CA-4BA3-99B2-DA3D90CD9B07}|QLMH\\QLMH.csproj|solutionrelative:qlmh\\data\\migrations\\20251117165619_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Create.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Create.cshtml.cs*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Create.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T07:02:37.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Create.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Create.cshtml*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T07:02:31.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251123065144_AddStockQuantity.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251123065144_AddStockQuantity.cs",
+              "RelativeDocumentMoniker": "QLMH\\Data\\Migrations\\20251123065144_AddStockQuantity.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251123065144_AddStockQuantity.cs",
+              "RelativeToolTip": "QLMH\\Data\\Migrations\\20251123065144_AddStockQuantity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T06:51:45.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Index.cshtml*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Index.cshtml*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwCgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T11:57:23.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Create.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Create.cshtml*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Create.cshtml*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T11:15:37.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Edit.cshtml*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Edit.cshtml*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAwE0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T11:41:41.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Index.cshtml*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T13:07:37.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout_Admin.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\_Layout_Admin.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Shared\\_Layout_Admin.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\_Layout_Admin.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Shared\\_Layout_Admin.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T23:06:46.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Edit.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Edit.cshtml.cs*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Edit.cshtml.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:43:27.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Details.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Details.cshtml*",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Details.cshtml*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T11:40:22.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDetail.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\ProductDetail.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\ProductDetail.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\ProductDetail.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\ProductDetail.cshtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:02:08.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\ProductDetail.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\ProductDetail.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\ProductDetail.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:00:25.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Program.cs",
+              "RelativeDocumentMoniker": "QLMH\\Program.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Program.cs",
+              "RelativeToolTip": "QLMH\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T23:30:38.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Orders\\Index.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T13:13:57.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Returns\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Returns\\Index.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Returns\\Index.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Returns\\Index.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:02:40.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Delete.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Delete.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T11:13:43.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "QLMH\\Models\\Product.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Models\\Product.cs",
+              "RelativeToolTip": "QLMH\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:36:03.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Returns\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Returns\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Returns\\Index.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Returns\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T19:02:40.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Delete.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Delete.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:13:56.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReturnRequest.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Models\\ReturnRequest.cs",
+              "RelativeDocumentMoniker": "QLMH\\Models\\ReturnRequest.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Models\\ReturnRequest.cs",
+              "RelativeToolTip": "QLMH\\Models\\ReturnRequest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:15:34.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QLMH\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QLMH\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:25:30.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Edit.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T11:12:22.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Edit.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Edit.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:12:27.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Users\\Index.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Users\\Index.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Users\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T13:07:49.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Categories\\Index.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Categories\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T13:03:26.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Delete.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T11:51:27.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Delete.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Delete.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:52:21.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Details.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Details.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:41:02.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Products\\Create.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Products\\Create.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Products\\Create.cshtml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:17:18.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "QLMH\\ViewModels\\CartItem.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "QLMH\\ViewModels\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T07:10:07.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SessionHelper.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Helpers\\SessionHelper.cs",
+              "RelativeDocumentMoniker": "QLMH\\Helpers\\SessionHelper.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Helpers\\SessionHelper.cs",
+              "RelativeToolTip": "QLMH\\Helpers\\SessionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T07:07:26.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Index.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowIAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T20:16:23.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T21:01:56.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T21:03:37.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T19:35:50.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20251111210755_AddReviewsCollectionToProduct.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251111210755_AddReviewsCollectionToProduct.cs",
+              "RelativeDocumentMoniker": "QLMH\\Data\\Migrations\\20251111210755_AddReviewsCollectionToProduct.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251111210755_AddReviewsCollectionToProduct.cs",
+              "RelativeToolTip": "QLMH\\Data\\Migrations\\20251111210755_AddReviewsCollectionToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T21:07:55.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "QLMH\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "QLMH\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAALEAAAAAAAAAAAAswMcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T16:47:09.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "QLMH\\Models\\Review.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Models\\Review.cs",
+              "RelativeToolTip": "QLMH\\Models\\Review.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:54:24.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T19:45:33.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251117165619_New.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251117165619_New.cs",
+              "RelativeDocumentMoniker": "QLMH\\Data\\Migrations\\20251117165619_New.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Data\\Migrations\\20251117165619_New.cs",
+              "RelativeToolTip": "QLMH\\Data\\Migrations\\20251117165619_New.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T16:56:19.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T23:08:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Admin\\_ViewStart.cshtml",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Admin\\_ViewStart.cshtml",
+              "RelativeToolTip": "QLMH\\Pages\\Admin\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T23:08:20.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Cart.cshtml.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Cart.cshtml.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Cart.cshtml.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Cart.cshtml.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Cart.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T23:41:54.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryMenuViewComponent.cs",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\Components\\CategoryMenu\\CategoryMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "QLMH\\Pages\\Shared\\Components\\CategoryMenu\\CategoryMenuViewComponent.cs",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\Pages\\Shared\\Components\\CategoryMenu\\CategoryMenuViewComponent.cs",
+              "RelativeToolTip": "QLMH\\Pages\\Shared\\Components\\CategoryMenu\\CategoryMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:57:58.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\QLMH\\appsettings.json",
+              "RelativeDocumentMoniker": "QLMH\\appsettings.json",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\QLMH\\appsettings.json",
+              "RelativeToolTip": "QLMH\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-11T20:45:47.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\ASP.Net\\QLMH\\startbootstrap-shop-homepage-gh-pages (1)\\startbootstrap-shop-homepage-gh-pages\\index.html",
+              "RelativeDocumentMoniker": "startbootstrap-shop-homepage-gh-pages (1)\\startbootstrap-shop-homepage-gh-pages\\index.html",
+              "ToolTip": "C:\\ASP.Net\\QLMH\\startbootstrap-shop-homepage-gh-pages (1)\\startbootstrap-shop-homepage-gh-pages\\index.html",
+              "RelativeToolTip": "startbootstrap-shop-homepage-gh-pages (1)\\startbootstrap-shop-homepage-gh-pages\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T20:13:45.655Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

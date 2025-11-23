@@ -1,0 +1,33 @@
+﻿@page
+@model QLMH.Pages.ReturnRequestModel
+@{
+    ViewData["Title"] = "Yêu cầu Đổi trả";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>Nếu sản phẩm gặp sự cố, vui lòng điền thông tin bên dưới.</p>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Request.OrderId"></label>
+                <input asp-for="Request.OrderId" class="form-control" />
+                <span asp-validation-for="Request.OrderId" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Request.Reason"></label>
+                <textarea asp-for="Request.Reason" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Request.Reason" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Gửi yêu cầu" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

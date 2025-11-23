@@ -1,0 +1,36 @@
+﻿@page
+@model QLMH.Areas.Admin.Pages.Users.EditModel
+@{
+    ViewData["Title"] = "Phân quyền Tài khoản";
+}
+
+<h1>Phân quyền Tài khoản</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <input type="hidden" asp-for="CurrentUser.Id" />
+
+            <div class="mb-3">
+                <label class="form-label">Họ và Tên</label>
+                <input asp-for="CurrentUser.FullName" class="form-control" readonly />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input asp-for="CurrentUser.Email" class="form-control" readonly />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Chọn Quyền hạn (Role)</label>
+                <select asp-for="SelectedRole" asp-items="Model.RolesList" class="form-select">
+                    <option value="">-- Khách hàng (Không có quyền quản trị) --</option>
+                </select>
+                <small class="text-muted">Chỉ Admin mới có thể thực hiện thao tác này.</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+            <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
