@@ -23,5 +23,20 @@ namespace QLMH.Pages.Admin.Orders
                                     .OrderByDescending(o => o.OrderDate)
                                     .ToListAsync();
         }
+        public async Task<IActionResult> OnPostUpdateStatusAsync(int id, string status)
+        {
+            var order = await _context.Orders.FindAsync(id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            order.OrderStatus = status;
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToPage();
+        }
     }
 }

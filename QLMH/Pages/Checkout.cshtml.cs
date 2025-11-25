@@ -1,127 +1,116 @@
+Ôªøusing Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using QLMH.Data;
 using QLMH.Helpers;
 using QLMH.Models;
-using QLMH.ViewModels; // Ch?a CartItem
-using Microsoft.EntityFrameworkCore; // Cho Transaction
+using QLMH.ViewModels; // Ch·ª©a CartItem
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace QLMH.Pages
 {
     public class CheckoutModel : PageModel
     {
         private readonly ApplicationDbContext _context;
-        public CheckoutModel(ApplicationDbContext context)
+        private readonly UserManager<ApplicationUser> _userManager; // D√πng ƒë·ªÉ l·∫•y th√¥ng tin User
+
+        public CheckoutModel(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // D˘ng ?? hi?n th? tÛm t?t gi? h‡ng
-        public List<CartItem> Cart { get; set; }
-        public decimal TotalAmount { get; set; }
-
-        // D˘ng ?? nh?n d? li?u t? Form POST
         [BindProperty]
         public Order Order { get; set; }
 
-        public IActionResult OnGet()
-        {
-            // T?i gi? h‡ng t? Session
-            Cart = SessionHelper.GetObjectFromJson<List<CartItem>>(HttpContext.Session, "cart") ?? new List<CartItem>();
+        public List<CartItem> Cart { get; set; }
+        public decimal Total { get; set; }
 
-            if (Cart.Count == 0)
+        public async Task<IActionResult> OnGetAsync()
+        {
+            // 1. L·∫•y gi·ªè h√†ng
+            Cart = SessionHelper.GetObjectFromJson<List<CartItem>>(HttpContext.Session, "cart");
+
+            if (Cart == null || Cart.Count == 0)
             {
-                // N?u gi? h‡ng tr?ng, khÙng cho checkout, ?· v? trang ch?
-                return RedirectToPage("Index");
+                return RedirectToPage("/Index"); // Gi·ªè h√†ng r·ªóng th√¨ ƒë√° v·ªÅ trang ch·ªß
             }
 
-            TotalAmount = Cart.Sum(item => item.Total);
+            Total = Cart.Sum(i => i.Quantity * i.Price);
+
+            // 2. T·ª∞ ƒê·ªòNG ƒêI·ªÄN TH√îNG TIN (AUTO-FILL)
+            // Ki·ªÉm tra xem user c√≥ ƒëang ƒëƒÉng nh·∫≠p kh√¥ng
+            if (User.Identity.IsAuthenticated)
+            {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser != null)
+                {
+                    // Kh·ªüi t·∫°o Order v·ªõi th√¥ng tin c·ªßa User
+                    Order = new Order
+                    {
+                        FullName = currentUser.FullName,   // L·∫•y H·ªç t√™n
+                        ShippingAddress = currentUser.Address, // L·∫•y ƒê·ªãa ch·ªâ
+                        PhoneNumber = currentUser.PhoneNumber // L·∫•y SƒêT
+                    };
+                }
+            }
+
             return Page();
         }
 
-        // ThÍm h‡m n‡y v‡o file QLMH.Pages.CheckoutModel (Checkout.cshtml.cs)
-
         public async Task<IActionResult> OnPostAsync()
         {
-            // T?i l?i gi? h‡ng v‡ t?ng ti?n
-            Cart = SessionHelper.GetObjectFromJson<List<CartItem>>(HttpContext.Session, "cart") ?? new List<CartItem>();
-            if (Cart.Count == 0)
-            {
-                ModelState.AddModelError("", "Gi? h‡ng c?a b?n tr?ng.");
-            }
+            Cart = SessionHelper.GetObjectFromJson<List<CartItem>>(HttpContext.Session, "cart");
+            if (Cart == null || Cart.Count == 0) return RedirectToPage("/Index");
 
-            // Ki?m tra xem thÙng tin nh?p (FullName, Address...) cÛ h?p l? khÙng
-            if (!ModelState.IsValid)
-            {
-                // N?u khÙng h?p l?, t?i l?i t?ng ti?n v‡ hi?n th? l?i trang
-                TotalAmount = Cart.Sum(item => item.Total);
-                return Page();
-            }
+            Total = Cart.Sum(i => i.Quantity * i.Price);
 
-            // B?t ??u m?t Transaction (Giao d?ch CSDL)
-            // ??m b?o t?t c? c˘ng th‡nh cÙng, ho?c th?t b?i
-            using (var transaction = await _context.Database.BeginTransactionAsync())
+            // N·∫øu User ƒë√£ ƒëƒÉng nh·∫≠p, g·∫Øn UserId v√†o ƒë∆°n h√†ng
+            if (User.Identity.IsAuthenticated)
             {
-                try
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser != null)
                 {
-                    // 1. G·n thÙng tin cho ??n h‡ng (Order)
-                    // (Order ?„ ???c BindProperty t? form)
-                    Order.OrderDate = DateTime.Now;
-                    Order.TotalAmount = Cart.Sum(item => item.Total);
-                    Order.OrderStatus = "Pending"; // Tr?ng th·i ch? x? l˝
-
-                    // 2. L?u ??n h‡ng (Order) v‡o CSDL
-                    await _context.Orders.AddAsync(Order);
-                    await _context.SaveChangesAsync(); // Ph?i save ? ?‚y ?? l?y ???c Order.Id
-
-                    // 3. L?p qua gi? h‡ng ?? t?o Chi ti?t ??n h‡ng (OrderDetail)
-                    foreach (var cartItem in Cart)
-                    {
-                        // T?o m?t OrderDetail m?i
-                        var orderDetail = new OrderDetail
-                        {
-                            OrderId = Order.Id, // L?y Id t? Order v?a l?u
-                            ProductId = cartItem.ProductId,
-                            Quantity = cartItem.Quantity,
-                            Price = cartItem.Price // L?u gi· t?i th?i ?i?m mua
-                        };
-                        await _context.OrderDetails.AddAsync(orderDetail);
-
-                        // 4. TR? KHO (Module 10)
-                        var product = await _context.Products.FindAsync(cartItem.ProductId);
-                        if (product != null)
-                        {
-                            product.StockQuantity -= cartItem.Quantity;
-                            // (B?n cÛ th? thÍm ki?m tra n?u StockQuantity < 0 thÏ b·o l?i)
-                            _context.Products.Update(product);
-                        }
-                    }
-
-                    // 5. L?u t?t c? thay ??i (OrderDetails v‡ Products)
-                    await _context.SaveChangesAsync();
-
-                    // 6. Cam k?t Transaction (Ho‡n t?t)
-                    await transaction.CommitAsync();
-
-                    // 7. XÛa gi? h‡ng kh?i Session
-                    HttpContext.Session.Remove("cart");
-
-                    // 8. Chuy?n ??n trang C?m ?n/Th‡nh cÙng
-                    // (T?m th?i redirect v? Index, b?n nÍn t?o trang OrderSuccess)
-                    return RedirectToPage("Index", new { message = "??t h‡ng th‡nh cÙng!" });
-                }
-                catch (Exception ex)
-                {
-                    // N?u cÛ l?i ? b?t k? b??c n‡o (tr? kho, l?u CSDL...)
-                    // H?y b? m?i thay ??i
-                    await transaction.RollbackAsync();
-                    ModelState.AddModelError("", $"??t h‡ng th?t b?i: {ex.Message}");
-
-                    // T?i l?i t?ng ti?n v‡ hi?n th? l?i trang
-                    TotalAmount = Cart.Sum(item => item.Total);
-                    return Page();
+                    Order.UserId = currentUser.Id;
                 }
             }
+
+            // G√°n c√°c th√¥ng tin t·ª± ƒë·ªông
+            Order.OrderDate = DateTime.Now;
+            Order.TotalAmount = Total;
+            Order.OrderStatus = "Pending";
+
+            // L∆∞u ƒê∆°n h√†ng (Order)
+            _context.Orders.Add(Order);
+            await _context.SaveChangesAsync();
+
+            // L∆∞u Chi ti·∫øt ƒë∆°n h√†ng (OrderDetails)
+            foreach (var item in Cart)
+            {
+                var orderDetail = new OrderDetail
+                {
+                    OrderId = Order.Id,
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity,
+                    Price = item.Price
+                };
+                _context.OrderDetails.Add(orderDetail);
+
+                // Tr·ª´ t·ªìn kho (n·∫øu c·∫ßn)
+                var product = await _context.Products.FindAsync(item.ProductId);
+                if (product != null)
+                {
+                    product.StockQuantity -= item.Quantity;
+                }
+            }
+            await _context.SaveChangesAsync();
+
+            // X√≥a gi·ªè h√†ng sau khi ƒë·∫∑t th√†nh c√¥ng
+            HttpContext.Session.Remove("cart");
+
+            return RedirectToPage("/OrderConfirmation", new { id = Order.Id });
         }
     }
 }

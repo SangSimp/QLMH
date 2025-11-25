@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLMH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b66461c6706e1275dae8a774f04e1d082e214dab")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLMH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLMH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,13 +3,13 @@
     public class OrderDetail
     {
         public int Id { get; set; }
-        public int OrderId { get; set; } // Khóa ngoại tới Order
-        public int ProductId { get; set; } // Khóa ngoại tới Product
+        public int OrderId { get; set; } 
+        public int ProductId { get; set; } 
 
         public int Quantity { get; set; }
-        public decimal Price { get; set; } // Lưu lại giá tại thời điểm mua
+        public decimal Price { get; set; } 
 
-        // Thuộc tính điều hướng
+    
         public Order Order { get; set; }
         public Product Product { get; set; }
     }

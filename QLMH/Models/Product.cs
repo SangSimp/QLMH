@@ -23,7 +23,7 @@ namespace QLMH.Models
         [Range(0, int.MaxValue, ErrorMessage = "Số lượng không hợp lệ")]
         public int StockQuantity { get; set; }
 
-        // Khóa ngoại
+      
         [Required(ErrorMessage = "Vui lòng chọn Loại sản phẩm.")]
         [Display(Name = "Loại sản phẩm")]
         public int CategoryId { get; set; }
@@ -33,7 +33,7 @@ namespace QLMH.Models
         [Display(Name = "URL Hình ảnh")]
         public string? ImageUrl { get; set; }
         public ICollection<Review> Reviews { get; set; }
-        [NotMapped] // << Bắt buộc phải có để Entity Framework hiểu KHÔNG lưu vào CSDL
+        [NotMapped] 
         [Display(Name = "Chọn hình ảnh")]
         public IFormFile? ImageFile { get; set; }
        

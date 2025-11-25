@@ -16,7 +16,7 @@ namespace QLMH.Models
         public string Reason { get; set; }
 
         [Display(Name = "Trạng thái")]
-        public string Status { get; set; } // Pending, Approved, Denied
+        public string Status { get; set; } 
 
         public DateTime RequestDate { get; set; }
         [ForeignKey("OrderId")]

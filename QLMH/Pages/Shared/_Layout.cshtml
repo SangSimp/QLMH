@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using QLMH.Helpers
+@using QLMH.ViewModels
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -34,10 +37,16 @@
                     <button class="btn btn-outline-warning" type="submit">Tìm</button>
                 </form>
 
+                @{
+                    
+                    var cart = SessionHelper.GetObjectFromJson<List<CartItem>>(Context.Session, "cart");
+                    int cartCount = cart != null ? cart.Sum(item => item.Quantity) : 0;
+                }
+
                 <a class="btn btn-outline-light me-2" asp-page="/Cart">
                     <i class="bi-cart-fill me-1"></i>
                     Giỏ hàng
-                    <span class="badge bg-light text-dark ms-1 rounded-pill">0</span>
+                    <span class="badge bg-light text-dark ms-1 rounded-pill">@cartCount</span>
                 </a>
 
                 <partial name="_LoginPartial" />

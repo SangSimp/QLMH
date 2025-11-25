@@ -459,4 +459,5 @@ C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\compressed\en58m237ti-7950c2etpe.gz
 C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\compressed\91g8t7gn0i-mf45fbw2f4.gz
 C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\compressed\zkchhjg0gi-xnqwbb6zwd.gz
 C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\compressed\o5ez9cdcys-dqle62frat.gz
-C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\compressed\478nfane1f-wt1w0pzd5c.gz
+C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\QLMH.sourcelink.json
+C:\ASP.Net\QLMH\QLMH\obj\Debug\net9.0\compressed\478nfane1f-3g48caxwax.gz
